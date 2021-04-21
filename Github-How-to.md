@@ -80,7 +80,7 @@ The above creates a copy of the git repository at stated URL on local machine.
 - git remote add upstream [URL] 
 ! Adds the original fork-ee ( or someone elses fork) as an upstream to update from
 
-- git merge upstream/main 
+- git merge upstream/main
 ! Merges upstream main to origin main ( local repos)
 
 ! Can then push to update your own remote fork.
