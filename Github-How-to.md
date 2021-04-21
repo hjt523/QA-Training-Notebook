@@ -17,47 +17,52 @@ The above creates a copy of the git repository at stated URL on local machine.
 ### Staging a change
 !Making it so the file(s) is included in the next commit basically
 
-git add . ! at root,
-git add --all ! more generally 
+- git add . 
+! at root,
+
+- git add --all 
+! more generally 
+
 !! Adding all the updated files to the next commit
 
-git add {file} ! Adding a specific file(s) to the next commit
+- git add {file}
+! Adding a specific file(s) to the next commit
 
-git add *.txt ! Adds all .txt files etc.
+- git add *.txt ! Adds all .txt files etc.
 
 ### Setting config in local machine
 ! Needed to commit changes to the repository
 
 ! globally - machine
 
-git config --global user.name "[USERNAME]"
+- git config --global user.name "[USERNAME]"
 
-git config --global user.email "[EMAIL]"
+- git config --global user.email "[EMAIL]"
 
 ! Locally - Just this repository
 
-git config user.name "[USERNAME]"
+- git config user.name "[USERNAME]"
 
-git config user.email "[EMAIL]"
+- git config user.email "[EMAIL]"
 
 ### Local Repository Status 
 ! Check local repository state ( like whats staged / already git add etc)
-git status
+- git status
 
 ### Commiting a Change 
 ! " save " the staged changes
-git commit -m "[COMMIT_MESSAGE]"
+- git commit -m "[COMMIT_MESSAGE]"
 
 ### Pushing Changes (git push)
 ! Updating remote repository with committed changes
 ! Remote origin, remote_branch main, for example
 
-git push -u [REMOTE] [REMOTE_BRANCH] 
+- git push -u [REMOTE] [REMOTE_BRANCH] 
 
 ### Pulling changes
 ! The opposite of push, pulling remote changes to local repository
 
-git pull [REMOTE] [REMOTE_BRANCH]
+- git pull [REMOTE] [REMOTE_BRANCH]
 
 ### Ignoring files
 
@@ -68,12 +73,15 @@ git pull [REMOTE] [REMOTE_BRANCH]
 ! You can copy another persons repository to your github page and make a copy by forking it, top right of a github page
 ! Then just clone and download it etc, some useful things to know when forking.
 
-remote -v # check status of fork clone
-fetch , push can also be used.
+- remote -v 
+! check status of fork clone
+- fetch , push can also be used.
 
-git remote add upstream [URL] # Adds the original fork-ee ( or someone elses fork) as an upstream to update from
+- git remote add upstream [URL] 
+! Adds the original fork-ee ( or someone elses fork) as an upstream to update from
 
-git merge upstream/main # Merges upstream main to origin main ( local repos)
+- git merge upstream/main 
+! Merges upstream main to origin main ( local repos)
 
 ! Can then push to update your own remote fork.
 
