@@ -86,6 +86,31 @@ The above creates a copy of the git repository at stated URL on local machine.
 ! Can then push to update your own remote fork.
 
 # 3. Branching
+! Branching is pretty nifty, it allows people to start a seperate version of the current code you " branch" off from to tweak without altering the last common version.
+
+Main --> Main --------> Main -------> Main
+         !!                        !!
+         Branch_1 ---> Branch_1    Branch_2
+
+
+### Making a branch and moving to it
+- git branch ! To see current branches
+
+-  git branch [NEW_BRANCH_NAME] ! To create a new branch
+
+! So the new branch will contain everything the branch you branch from does, but allow you to make changes without losing the last working version!
+
+- git checkout [Branch] ! Move to a branch
+- git checkout -b [NEW_BRANCH_NAME] ! create and move to a new branch!
+
+### Deleting a branch
+! The standard is to deleted a branch once you're done using it to keep the web of what you're doing clean, to do this:
+
+- git branch -d [BRANCH_NAME] ! To delete locally. 
+
+- git push --delete origin [BRANCH_NAME] ! To delete at remote repository
+
+
 
 ### TO BE CONTINUED ###
 
