@@ -118,7 +118,7 @@ The above creates a copy of the git repository at stated URL on local machine.
 
 # 4. Merging
 
-![merge](https://drive.google.com/file/d/1zrLQhTFeyXnBa3Ke3KaQUQSS4Dei5IUf/view?usp=sharing)
+![merge](https://drive.google.com/file/d/1eFCobxNxc30eV_hpuRDpxTEuyJXJb1jF/view?usp=sharing)
 ### TO BE CONTINUED ###
 
 
