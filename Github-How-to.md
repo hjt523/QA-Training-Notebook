@@ -116,7 +116,9 @@ The above creates a copy of the git repository at stated URL on local machine.
 - git push --delete origin [BRANCH_NAME] ! To delete at remote repository
 
 
+# 4. Merging
 
+![merge](https://drive.google.com/file/d/1zrLQhTFeyXnBa3Ke3KaQUQSS4Dei5IUf/view?usp=sharing)
 ### TO BE CONTINUED ###
 
 
