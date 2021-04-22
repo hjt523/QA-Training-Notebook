@@ -88,14 +88,7 @@ The above creates a copy of the git repository at stated URL on local machine.
 # 3. Branching
 ! Branching is pretty nifty, it allows people to start a seperate version of the current code you " branch" off from to tweak without altering the last common version.
 
-
-
-     Main --> Main ------> Main -------> Main
-        
-          !!                        !!
-        
-          Branch_1 ---> Branch_1    Branch_2 
-          
+![branchdiagram](https://github.com/hjt523/QA-Training-Notebook/blob/5768c68a57fa30f9bd2e2bebcba8031d8e9895e5/imagefolder/Branching.jpeg)
 
 
 ### Making a branch and moving to it
