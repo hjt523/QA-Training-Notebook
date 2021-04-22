@@ -117,18 +117,15 @@ The above creates a copy of the git repository at stated URL on local machine.
 
 
 # 4. Merging
+! Once we have our nice changes in our branch, and it's (hopefully) all working nicely, we need to merge the branch back into main so that main has the new useful features.
 
 ![conflict](https://github.com/hjt523/QA-Training-Notebook/blob/034e3f5e519f59d63d86282fc0b4b5211c118792/Merge%20conflict.jpeg)
-     Main --> a --> b ---> c \
-     
-          !!                    \
-    
-          !!                      > Merged c and 3
-          
-          !!                    /
-                                                   
-          1 ---> 2 ---->   3 /
-          
+
+- git merge [branch]
+! Merge branch into main
+
+! conflicts can happen where the two branches have different data in the same places ( like two slightly different lines in a file), in order to merge these need to be resolved
+! Git will add markers into the merge file where the error is that needs to be removed in order for you to then commit the changes and complete the merge.
           
 ### TO BE CONTINUED ###
 
