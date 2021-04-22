@@ -118,7 +118,7 @@ The above creates a copy of the git repository at stated URL on local machine.
 
 # 4. Merging
 
-
+![conflict](https://github.com/hjt523/QA-Training-Notebook/blob/034e3f5e519f59d63d86282fc0b4b5211c118792/Merge%20conflict.jpeg)
      Main --> a --> b ---> c \
      
           !!                    \
