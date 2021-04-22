@@ -8,3 +8,5 @@ Table of contents:
 - Common Commands
 - Forking
 - Branching
+- Merging
+- Reverting
