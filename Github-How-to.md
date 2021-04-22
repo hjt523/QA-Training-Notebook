@@ -119,6 +119,44 @@ The above creates a copy of the git repository at stated URL on local machine.
 
 ! conflicts can happen where the two branches have different data in the same places ( like two slightly different lines in a file), in order to merge these need to be resolved
 ! Git will add markers into the merge file where the error is that needs to be removed in order for you to then commit the changes and complete the merge.
+
+# 5. Reverting
+### Reviewing the history of a repository
+- git log
+
+! This shows all the commit history of current branch
+
+- git log --oneline
+
+! Using --oneline flag simplifies the output into one line per commit.
+
+- git log --branches=*
+
+! By using the --branches=* Git returns history of all branches in the repository.
+
+- git log [BRANCH_NAME]
+
+! This gives the history of a specific branch
+
+### Reverting to a previous commit with revert
+! Assuming a git log looks like this:
+
+      875f31e (HEAD -> main) fourth commit
+      483856a third commit
+      2dd011d second commit
+      bcabb84 first commit
+
+- git revert HEAD
+
+! Makes a new commit which does the opposite of the last commit. 
+
+### Reverting with reset
+
+- git reset --hard 483856a
+! reverts and deletes the last commit from history 
+####### VERY DANGEROUS WHEN WORKING IN A SHARED REPOSITORY
+! Leads to big issues when merging etc.
+
           
 ### TO BE CONTINUED ###
 
