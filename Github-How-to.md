@@ -90,9 +90,9 @@ The above creates a copy of the git repository at stated URL on local machine.
 
 Main --> Main --------> Main -------> Main
         
-        !!                        !!
+          !!                        !!
         
-        Branch_1 ---> Branch_1    Branch_2
+          Branch_1 ---> Branch_1    Branch_2
 
 
 ### Making a branch and moving to it
