@@ -1,4 +1,4 @@
-## Github How to's ( non exhaustive)
+# Github How to's ( non exhaustive)
 
 This file is here to keep track of git commands that i may forget and need a refresher on function with! May expand to include helpful tips, we'll see i guess!
 
