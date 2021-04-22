@@ -157,6 +157,12 @@ The above creates a copy of the git repository at stated URL on local machine.
 ####### VERY DANGEROUS WHEN WORKING IN A SHARED REPOSITORY
 ! Leads to big issues when merging etc.
 
+# 6. Forking and Pull Requests
+! Say you like the look of another users repository and want to play around with it, you can fork that repository and make your own version by clicking on the fork button on their profile.
+You can commit push pull etc with this the same as any of your other repositories. 
+
+Whilst also possible for branches ( and should be done when working in a team. ), you can create a pull request from your fork with the original author using the github website interface and request they incorporate your changes. In the case of your own repository it can be reviewed by other collaborators and committed to the main branch at a later time. 
+###### may add screenshots
           
 ### TO BE CONTINUED ###
 
