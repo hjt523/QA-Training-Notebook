@@ -118,7 +118,18 @@ The above creates a copy of the git repository at stated URL on local machine.
 
 # 4. Merging
 
-![merge](https://lucid.app/lucidchart/invitations/accept/inv_b838ec78-2080-4f73-a281-ca6cd6fbfd4c)
+
+     Main --> a --> b ---> c \
+     
+          !!                    \
+    
+          !!                      > Merged c and 3
+          
+          !!                    /
+                                                   
+          1 ---> 2 ---->   3 /
+          
+          
 ### TO BE CONTINUED ###
 
 
