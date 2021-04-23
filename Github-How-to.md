@@ -154,6 +154,7 @@ The above creates a copy of the git repository at stated URL on local machine.
 
 - git reset --hard 483856a
 ! reverts and deletes the last commit from history 
+
 ####### VERY DANGEROUS WHEN WORKING IN A SHARED REPOSITORY
 ! Leads to big issues when merging etc.
 
